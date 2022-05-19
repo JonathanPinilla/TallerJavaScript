@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/index.js"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Experiencia</title>
+</head>
+
+<body id="cuerpo" onload="main(); acord()">
+    <header>
+        <nav>
+            <ul>
+                <a class="button" id="pg1" href="./index.html">Inicio</a>
+                <a class="button" id="pg2" href="./experiencia.html">Experiencia</a>
+                <a class="button" id="pg3" href="./referenciasPersonales.html">Referencias Personales</a>
+                <a class="button" id="pg4" href="./referenciasFamiliares.html">Referencias Familiares</a>
+                <a class="button" id="pg5" href="./estudios.html">Estudios Realizados</a>
+            </ul>
+        </nav>
+    </header>
+    <div class="contenido">
+        <ul class="tema uls">
+            <a id="icoTema" class="material-symbols-rounded"
+                style="color: #FF5757; margin-right: 10px;">format_color_fill</a>
+            <a class="button" onclick="clicRojo()" id="rojo"></a>
+            <a class="button" onclick="clicAzul()" id="azul"></a>
+            <a class="button" onclick="clicVerde()" id="verde"></a>
+            <a class="button" onclick="colorDefault()" id="colorDef"></a>
+        </ul>
+        <h1 id="tit1">Experiencia laboral</h1>
+        <article>
+            <button id="tit2" class="acordeon">Sofka U</button>
+            <div class="panel">
+                <h3 class="textLeft">Duración: Desde Abril de 2022 hasta Mayo 2022<br>Cargo: Canteras nivel
+                    1<br>Actividades: Talleres en Pseint, Java, html5, css y javascript</h3>
+            </div>
+
+            <button id="tit3" class="acordeon">Ctu-ideas</button>
+            <div class="panel">
+                <h3 class="textLeft">Duración: Desde Febrero de 2022 hasta Mayo 2022<br>Cargo: Desarrollador y
+                    diseñador<br>Actividades: Manejo plataforma Wix, diseño 2D, fotografía</h3>
+            </div>
+
+            <button id="tit4" class="acordeon">Connect your Knowledge</button>
+            <div class="panel">
+                <h3 class="textLeft">Duración: Desde Febrero de 2021 hasta Noviembre 2021<br>Cargo: (Prácticas
+                    empresariales como opción de grado- lider de
+                    contenidos virtuales)<br>Actividades: Diseño, desarrollo web, desarrollo de objetos virtuales de
+                    aprendizaje (Ova) con juegos programados a base de javascript</h3>
+            </div>
+
+            <button id="tit5" class="acordeon">Connect your Knowledge</button>
+            <div class="panel">
+                <h3 class="textLeft">Duración: Desde Julio de 2020 hasta Enero 2021<br>Cargo: Lider de
+                    contenidos virtuales<br>Actividades: Diseño, desarrollo web, desarrollo de objetos virtuales de
+                    aprendizaje (Ova), diseño y animación 3D, diseño de piezas publicitarias para las redes sociales de
+                    Connect your Knowledge</h3>
+            </div>
+
+        </article>
+    </div>
+</body>
+
+</html>

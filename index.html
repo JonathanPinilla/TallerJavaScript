@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/index.js"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Inicio</title>
+</head>
+
+<body id="cuerpo" onload="main()">
+    <header>
+        <nav>
+            <ul>
+                <a class="button" id="pg1" href="./index.html">Inicio</a>
+                <a class="button" id="pg2" href="./experiencia.html">Experiencia</a>
+                <a class="button" id="pg3" href="./referenciasPersonales.html">Referencias Personales</a>
+                <a class="button" id="pg4" href="./referenciasFamiliares.html">Referencias Familiares</a>
+                <a class="button" id="pg5" href="./estudios.html">Estudios Realizados</a>
+            </ul>
+        </nav>
+    </header>
+    <div class="contenido">
+        <ul class="tema">
+            <a id="icoTema" class="material-symbols-rounded"
+                style="color: #FF5757; margin-right: 10px;">format_color_fill</a>
+            <a class="button" onclick="clicRojo()" id="rojo"></a>
+            <a class="button" onclick="clicAzul()" id="azul"></a>
+            <a class="button" onclick="clicVerde()" id="verde"></a>
+            <a class="button" onclick="colorDefault()" id="colorDef"></a>
+        </ul>
+        <img id="foto" class="profile animarFoto" style="width: 200px;" src="./img/Foto.png" alt="Foto de perfil">
+        <h1 id="tit1">Jonathan Daniel<br>Pinilla Forero</h1>
+        <h3>Estudiante de ingeniería en multimedia, último
+            semestre<br>Universidad Militar Nueva Granada</h3>
+        <h1 id="tit2" style="background-color: none;">Perfil</h1>
+        <h4 class="textLeft">Me considero una persona responsable, comprometida y que aprende con
+            facilidad, me adapto a los cambios y me gustan los retos. Tengo experiencia trabajando en Html, css,
+            javascript, conocimientos basicos de back end, manejo de frameworks front end, conocimientos basicos de
+            NodeJs, manejo de metodologia Scrum.</h4>
+        <h1 id="tit3">Información de contacto</h1>
+        <h5>
+            <ul class="uls">
+                <li>Teléfono: 601 883 6340</li>
+                <li>Celular: 3022920228</li>
+                <li><a href="mailto:jonathan_pinilla@outlook.com">Email:
+                        jonathan_pinilla@outlook.com</a></li>
+                <li>Dirección: Diagonal 4#0-10, Cajicá, Colombia</li>
+            </ul>
+        </h5>
+        <a id="dpdf" class="button" href="./pdf/CV.pdf" download>Descargar CV en pdf</a>
+    </div>
+</body>
+
+</html>

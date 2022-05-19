@@ -1,0 +1,186 @@
+:root {
+    background-color: black;
+    align-content: center;
+    padding: 30px;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(fuente/Roboto/Roboto-Regular.ttf);
+}
+
+body {
+    background-color: #413737;
+    max-width: 1024px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+h1,
+h2 {
+    font-family: "Roboto";
+    color: #FF5757;
+}
+
+h3,
+h4,
+h5 {
+    font-family: "Roboto";
+    color: rgb(245, 243, 236);
+}
+
+li,
+.uls {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    font-family: "Roboto";
+    color: rgb(245, 243, 236);
+    text-decoration: none;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.profile {
+    border: 10px solid #FF5757;
+    border-radius: 10px;
+    box-shadow: 3px 5px 10px black;
+}
+
+#verde {
+    background-color: green;
+    box-shadow: 2px 2px 5px black;
+}
+
+#rojo {
+    background-color: red;
+    box-shadow: 2px 2px 5px black;
+}
+
+#azul {
+    background-color: blue;
+    box-shadow: 2px 2px 5px black;
+}
+
+#colorDef {
+    box-shadow: 2px 2px 5px black;
+}
+
+.button {
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #FF5757;
+    color: #413737;
+    padding: 5px;
+    transition: all 0.2s;
+}
+
+.button:hover {
+    cursor: pointer;
+    box-shadow: 3px 5px 10px black;
+}
+
+.button:active {
+    cursor: pointer;
+    box-shadow: 0px 0px 6px black inset;
+}
+
+.contenido {
+    background-color: #363030;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.textLeft {
+    text-align: left;
+}
+
+.animarFoto {
+    transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
+}
+
+.tema {
+    background-color: #413737;
+    border-radius: 10px;
+    padding: 15px;
+    padding-top: 10px;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 35px;
+}
+
+@keyframes float {
+    0% {
+        box-shadow: 3px 5px 10px black;
+        transform: translatey(0px);
+    }
+
+    50% {
+        box-shadow: 3px 5px 10px black;
+        transform: translatey(-10px);
+    }
+
+    100% {
+        box-shadow: 3px 5px 10px black;
+        transform: translatey(0px);
+    }
+}
+
+/*barra de scroll*/
+/* ancho */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* recorrido */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #363030;
+    border-radius: 10px;
+}
+
+/* Barra */
+::-webkit-scrollbar-thumb {
+    background: darkred;
+    border-radius: 10px;
+}
+
+/* Efecto acordeon*/
+/* Estilo de los botones de acitvar y desactivar acordeon */
+.acordeon {
+    font-family: Roboto;
+    font-size: large;
+    background-color: #FF5757;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 2px;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    border-radius: 10px;
+}
+
+/* hover y active */
+.active,
+.acordeon:hover {
+    background-color: #df7a7a;
+}
+
+/* panel acordeon oculto desde el inicio*/
+.panel {
+    padding: 0 18px;
+    border-radius: 10px;
+    background-color: #413737;
+    display: none;
+    overflow: hidden;
+}

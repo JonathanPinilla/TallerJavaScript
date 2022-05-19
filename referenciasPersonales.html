@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/index.js"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Referencias Personales</title>
+</head>
+
+<body id="cuerpo" onload="main(); acord()">
+    <header>
+        <nav>
+            <ul>
+                <a class="button" id="pg1" href="./index.html">Inicio</a>
+                <a class="button" id="pg2" href="./experiencia.html">Experiencia</a>
+                <a class="button" id="pg3" href="./referenciasPersonales.html">Referencias Personales</a>
+                <a class="button" id="pg4" href="./referenciasFamiliares.html">Referencias Familiares</a>
+                <a class="button" id="pg5" href="./estudios.html">Estudios Realizados</a>
+            </ul>
+        </nav>
+    </header>
+    <div class="contenido">
+        <ul class="tema uls">
+            <a id="icoTema" class="material-symbols-rounded"
+                style="color: #FF5757; margin-right: 10px;">format_color_fill</a>
+            <a class="button" onclick="clicRojo()" id="rojo"></a>
+            <a class="button" onclick="clicAzul()" id="azul"></a>
+            <a class="button" onclick="clicVerde()" id="verde"></a>
+            <a class="button" onclick="colorDefault()" id="colorDef"></a>
+        </ul>
+        <h1 id="tit1">Referencias personales</h1>
+        <article>
+            <button class="acordeon" id="tit2">Elizabeth Garzón</button>
+            <div class="panel">
+                <h3 class="textLeft">Profesion: Profesora de planta Universidad Militar Nueva Granada, consejera
+                    estudiantil, ingeniera en Multimedia<br>Contacto: 3123095211</h3>
+            </div>
+            
+            <button class="acordeon" id="tit3">Catalina Ropero</button>
+            <div class="panel">
+                <h3 class="textLeft">Profesion: Gerente Connect your Knowledge<br>Contacto: 3002888256</h3>
+            </div>
+            
+            <button class="acordeon" id="tit4">Laura Cortés</button>
+            <div class="panel">
+                <h3 class="textLeft">Profesion: Profesora de planta Universidad Militar Nueva Granada, directora del
+                    programa de ingeniería en Multimedia<br>Contacto: 3202980225</h3>
+            </div>
+            
+        </article>
+    </div>
+</body>
+
+</html>

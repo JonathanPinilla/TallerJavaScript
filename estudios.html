@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/index.js"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Referencias Familiares</title>
+</head>
+
+<body id="cuerpo" onload="main(); acord()">
+    <header>
+        <nav>
+            <ul>
+                <a class="button" id="pg1" href="./index.html">Inicio</a>
+                <a class="button" id="pg2" href="./experiencia.html">Experiencia</a>
+                <a class="button" id="pg3" href="./referenciasPersonales.html">Referencias Personales</a>
+                <a class="button" id="pg4" href="./referenciasFamiliares.html">Referencias Familiares</a>
+                <a class="button" id="pg5" href="./estudios.html">Estudios Realizados</a>
+            </ul>
+        </nav>
+    </header>
+    <div class="contenido">
+        <ul class="tema uls">
+            <a id="icoTema" class="material-symbols-rounded"
+                style="color: #FF5757; margin-right: 10px;">format_color_fill</a>
+            <a class="button" onclick="clicRojo()" id="rojo"></a>
+            <a class="button" onclick="clicAzul()" id="azul"></a>
+            <a class="button" onclick="clicVerde()" id="verde"></a>
+            <a class="button" onclick="colorDefault()" id="colorDef"></a>
+        </ul>
+        <h1 id="tit1">Estudios Realizados</h1>
+        <article>
+            <button class="acordeon" id="tit2">Ingeniería en multimedia</button>
+            <div class="panel">
+                <h3 class="textLeft">Institución: Universidad Militar Nueva Granada<br>Estado: En curso, actualmente en
+                    último semestre<br>Inicio 2017</h3>
+            </div>
+            
+            <button class="acordeon" id="tit3">Bachiller técnico en Diseño industrial</button>
+            <div class="panel">
+                <h3 class="textLeft">Institución: I.E.D. Ricardo Hinestrosa Daza La vega<br>Estado: Finalizado en 2014
+                </h3>
+            </div>
+            
+        </article>
+    </div>
+</body>
+
+</html>
